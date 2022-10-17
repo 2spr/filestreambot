@@ -16,15 +16,16 @@ START_TEXT = """
 <i>Hɪᴛ /help ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ</i>"""
 
 HELP_TEXT = """
-<i>➦ Fᴏʀᴡᴀʀᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ (ᴏʀ) ᴍᴇᴅɪᴀ ꜰʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.</i>\n
-<i>➠ I ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ Wɪᴛʜ Mᴀssɪᴠᴇ Sᴘᴇᴇᴅ!.</i>\n
-<i>➥ ᴊᴜsᴛ Aᴅᴅ Mᴇ ɪɴ ʏᴏᴜʀ Cʜᴀɴɴᴇʟ ᴀs ᴀᴅᴍɪɴ Fᴏʀ Dɪʀᴇᴄᴛ Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋs Bᴜᴛᴛᴏɴ</i>\n
+<i>➦ Sᴇɴᴅ / Fᴏʀᴡᴀʀᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ (ᴏʀ) ᴍᴇᴅɪᴀ ꜰʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.</i>
+<i>➠ I ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ Wɪᴛʜ Mᴀssɪᴠᴇ Sᴘᴇᴇᴅ!.</i>
+<i>➥ Aᴅᴅ Mᴇ ɪɴ ʏᴏᴜʀ Cʜᴀɴɴᴇʟ ᴀs ᴀᴅᴍɪɴ Fᴏʀ Dɪʀᴇᴄᴛ Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋs Bᴜᴛᴛᴏɴ</i>\n
+
 <u><b>**☠️ WARNING ☠️**</b></u>\n
 <i><b>©️ Cᴏᴘʏʀɪɢʜᴛ ᴄᴏɴᴛᴇɴᴛꜱ ʟᴇᴀᴅꜱ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ ʏᴏᴜ.</i></b>\n
 <i>☮ <b>Hᴏᴍʙᴀʟᴇ Cɪɴᴇᴍᴀs</b> </i> <b>: <a href='t.me/HombaleCinemas'>[ ᴄʟɪᴄᴋ ʜᴇʀᴇ ]</a></b>"""
 
 ABOUT_TEXT = """
-<b>⍟ Mʏ Nᴀᴍᴇ :</b> {}
+<b>⍟ Mʏ Nᴀᴍᴇ : Fɪʟᴇ ᴛᴏ Lɪɴᴋ</b>
 <b>⍟ Cʀᴇᴀᴛᴏʀ : ʀ2sᴘʀ</b>
 <b>⍟ Lᴀɴɢᴜᴀɢᴇ : Pʏᴛʜᴏɴ 3 </b>
 <b>⍟ Sᴇʀᴠᴇʀ : Cʟᴏᴜᴅ Lɪɴᴏᴅᴇ</b>
@@ -40,15 +41,14 @@ START_BUTTONS = InlineKeyboardMarkup(
     )
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
-        InlineKeyboardButton('Bᴀᴄᴋ', callback_data='home')
+        InlineKeyboardButton('Mᴏᴠɪᴇ', url=f"https://t.me/HombaleCinemasChat"),
+        InlineKeyboardButton('Hᴏᴍᴇ', callback_data='home')
         ]]
     )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
         InlineKeyboardButton('Mᴏᴠɪᴇ', url=f"https://t.me/HombaleCinemasChat"),
-        InlineKeyboardButton('Bᴀᴄᴋ', callback_data='home')
+        InlineKeyboardButton('Hᴏᴍᴇ', callback_data='home')
         ]]
     )
 
