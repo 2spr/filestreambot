@@ -196,7 +196,7 @@ async def start(b, m):
         await m.reply_text(
             text=msg_text.format(file_name, file_size, stream_link),
             parse_mode=ParseMode.HTML,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(" Dᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ 📥 ", url=stream_link)],[InlineKeyboardButton(" Wᴀᴛᴄʜ Oɴʟɪɴᴇ ▶️ (MX Pʟᴀʏᴇʀ | VLC | Oᴘᴇʀᴀ )", url=stream_link)]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(" Dᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ 📥 ", url=stream_link)],[InlineKeyboardButton(" Wᴀᴛᴄʜ Oɴʟɪɴᴇ ▶️ ( MX Pʟᴀʏᴇʀ | VLC | Oᴘᴇʀᴀ )", url=stream_link)]])
         )
 
 
