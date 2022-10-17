@@ -11,19 +11,19 @@ from pyrogram.enums.parse_mode import ParseMode
 db = Database(Var.DATABASE_URL, Var.SESSION_NAME)
 
 START_TEXT = """
-<i>👋 Hʏ,</i>{}/n
+<i>👋 Hʏ,</i>{}\n
 <i>I'ᴍ Tᴇʟᴇɢʀᴀᴍ Fɪʟᴇs Sᴛʀᴇᴀᴍɪɴɢ Bᴏᴛ ᴀs ᴡᴇʟʟ Dɪʀᴇᴄᴛ Lɪɴᴋs Gᴇɴᴇʀᴀᴛᴇ</i>\n
 <i>Hɪᴛ /help ᴛᴏ ɢᴇᴛ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ</i>"""
 
 HELP_TEXT = """
-<i>☮ Fᴏʀᴡᴀʀᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ (ᴏʀ) ᴍᴇᴅɪᴀ ꜰʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.</i><b> I ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ Wɪᴛʜ Mᴀssɪᴠᴇ Sᴘᴇᴇᴅ!.</b>\n
-<i>☮ ɪᴛs ᴇᴀsʏ ᴛᴏ ᴜsᴇ ᴍᴇ; ᴊᴜsᴛ Aᴅᴅ Mᴇ ɪɴ ʏᴏᴜʀ Cʜᴀɴɴᴇʟ ᴀs ᴀᴅᴍɪɴ Fᴏʀ Dɪʀᴇᴄᴛ Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋs Bᴜᴛᴛᴏɴ</i>\n
-<u><b>WARNING</b></u>\n
-<b>☮ Cᴏᴘʏʀɪɢʜᴛ ᴄᴏɴᴛᴇɴᴛꜱ ʟᴇᴀᴅꜱ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ ʏᴏᴜ.</b>\n
-<i>☮ Hᴏᴍʙᴀʟᴇ Cɪɴᴇᴍᴀs </i> <b>: <a href='t.me/HombaleCinemas'>[ ᴄʟɪᴄᴋ ʜᴇʀᴇ ]</a></b>"""
+<i>➦ Fᴏʀᴡᴀʀᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ (ᴏʀ) ᴍᴇᴅɪᴀ ꜰʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.</i>\n➠<i> I ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ Wɪᴛʜ Mᴀssɪᴠᴇ Sᴘᴇᴇᴅ!.</i>\n
+<i>➥ ɪᴛs ᴇᴀsʏ ᴛᴏ ᴜsᴇ ᴍᴇ; ᴊᴜsᴛ Aᴅᴅ Mᴇ ɪɴ ʏᴏᴜʀ Cʜᴀɴɴᴇʟ ᴀs ᴀᴅᴍɪɴ Fᴏʀ Dɪʀᴇᴄᴛ Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋs Bᴜᴛᴛᴏɴ</i>\n
+<u><b>**☠️ WARNING ☠️**</b></u>\n
+<i><b>©️ Cᴏᴘʏʀɪɢʜᴛ ᴄᴏɴᴛᴇɴᴛꜱ ʟᴇᴀᴅꜱ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ ʏᴏᴜ.</i></b>\n
+<i>☮ **Hᴏᴍʙᴀʟᴇ Cɪɴᴇᴍᴀs** </i> <b>: <a href='t.me/HombaleCinemas'>[ ᴄʟɪᴄᴋ ʜᴇʀᴇ ]</a></b>"""
 
 ABOUT_TEXT = """
-<b>⍟ Mʏ Nᴀᴍᴇ : {}</b>
+<b>⍟ Mʏ Nᴀᴍᴇ :</b> {}
 <b>⍟ Cʀᴇᴀᴛᴏʀ : ʀ2sᴘʀ</b>
 <b>⍟ Lᴀɴɢᴜᴀɢᴇ : Pʏᴛʜᴏɴ 3 </b>
 <b>⍟ Sᴇʀᴠᴇʀ : Cʟᴏᴜᴅ Lɪɴᴏᴅᴇ</b>
@@ -39,9 +39,8 @@ START_BUTTONS = InlineKeyboardMarkup(
     )
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Hᴏᴍᴇ', callback_data='home'),
-        InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
-        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
+        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close'),
+        InlineKeyboardButton('Bᴀᴄᴋ', callback_data='home')
         ]]
     )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
