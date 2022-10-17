@@ -34,7 +34,7 @@ ABOUT_TEXT = """
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ ➕️', url=f"http://t.me/Hombale_File_To_Link_Bot?startchannel=true")],
+        InlineKeyboardButton('➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ ➕️', url=f"http://t.me/{temp.U_NAME}?startchannel=true")],
         [InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
         ]]
