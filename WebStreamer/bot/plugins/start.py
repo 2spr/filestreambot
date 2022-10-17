@@ -188,7 +188,7 @@ async def start(b, m):
 <i><u>𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u></i>\n
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ :</b> <i>{}</i>\n
 <b>📦 Fɪʟᴇ ꜱɪᴢᴇ :</b> <i>{}</i>\n
-<b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <i>{}</i>\n
+<b>🔗 Link :</b> <code>{}</code>\n
 <b>🚸 Nᴏᴛᴇ : Lɪɴᴋ ᴇxᴘɪʀᴇᴅ ɪɴ 24 ʜᴏᴜʀꜱ</b>\n
 <i>🍃 Yᴏᴜ ᴄᴀɴ, Tʜᴀɴᴋ ᴍᴇ ʟᴀᴛᴇʀ :</i> <b>@HombaleCinemas</b>
 """
@@ -196,7 +196,7 @@ async def start(b, m):
         await m.reply_text(
             text=msg_text.format(file_name, file_size, stream_link),
             parse_mode=ParseMode.HTML,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Dᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ 📥", url=stream_link)],[InlineKeyboardButton("Wᴀᴛᴄʜ Oɴʟɪɴᴇ(MX Pʟᴀʏᴇʀ | VLC | Oᴘᴇʀᴀ)▶️", url=stream_link)]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(" Dᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ 📥 ", url=stream_link)],[InlineKeyboardButton(" Wᴀᴛᴄʜ Oɴʟɪɴᴇ ▶️ (MX Pʟᴀʏᴇʀ | VLC | Oᴘᴇʀᴀ )", url=stream_link)]])
         )
 
 
