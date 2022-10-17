@@ -22,7 +22,6 @@ HELP_TEXT = """
 
 <u><b>**☠️ WARNING ☠️**</b></u>\n
 <i><b>©️ Cᴏᴘʏʀɪɢʜᴛ ᴄᴏɴᴛᴇɴᴛꜱ ʟᴇᴀᴅꜱ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ ʏᴏᴜ.</i></b>\n
-
 <i>☮ <b>Hᴏᴍʙᴀʟᴇ Cɪɴᴇᴍᴀs</b> </i> <b>: <a href='t.me/HombaleCinemas'>[ ᴄʟɪᴄᴋ ʜᴇʀᴇ ]</a></b>"""
 
 ABOUT_TEXT = """
