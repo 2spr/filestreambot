@@ -1,5 +1,5 @@
 {
-  "name": "Avi-FileStreamBot",
+  "name": "Hombale_File_To_Link_Bot",
   "description": "A Pyrogram Telegram bot to Stream Telegram files to web. @Avishkarpatil",
   "keywords": [
       "telegram",
@@ -10,7 +10,8 @@
       "python",
       "plugin",
       "modular",
-      "media"
+      "media",
+      "hombalecinemas"
     ],
   "repository": "https://github.com/r2spr/watchbot/",
   "success_url": "/",
@@ -23,18 +24,22 @@
       },
       "APP_NAME": {
           "description": "Copy-Paste the app name that you just typed above."
+          "value": "hombalecinemas"
       },
       "API_ID": {
           "description": "Get this value from https://my.telegram.org"
+          "value": ""
       },
       "API_HASH": {
           "description": "Get this value from https://my.telegram.org"
+          "value": ""
       },
       "BOT_TOKEN": {
           "description": "Get this value from @BotFather"
       },
       "BIN_CHANNEL": {
           "description": "The BIN Channel ID. Read the readme for more info about this var"
+          "value": "-1001813347956"
           
       },
       "PING_INTERVAL": {
@@ -42,10 +47,12 @@
           "required": false
       },
       "DATABASE_URL": {
-          "description": "MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help to get the URI you can ask in Support Group: https://t.me/linux_repo"
+          "description": "MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help to get the URI you can ask in Support Group: https://t.me/HombaleCinemasChat"
+          "value": ""
       },
       "OWNER_ID": {
           "description": "Your Telegram User ID"
+          "value": "1906155412"
       },
       "BANNED_CHANNELS": {
           "description": "Put IDs of Banned Channels where bot will not work. You can add multiple IDs & separate with Space.",
@@ -54,7 +61,7 @@
       "UPDATES_CHANNEL": {
           "description": "Put a Public Channel Username, so every user have to Join that channel to use the bot. Must add bot to channel as Admin to work properly.",
           "required": false
-          
+          "value": "HombaleCinemas"
       },
       "SLEEP_THRESHOLD": {
           "description": "Floodwait Sleep timer. Read the readme for more info about this var",
