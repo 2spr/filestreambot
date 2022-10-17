@@ -83,7 +83,7 @@ async def private_receive_handler(c: Client, m: Message):
 <b>📦 Fɪʟᴇ ꜱɪᴢᴇ :</b> <i>{}</i>\n
 <b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <i>{}</i>\n
 <b>🚸 Nᴏᴛᴇ : Lɪɴᴋ ᴇxᴘɪʀᴇᴅ ɪɴ 24 ʜᴏᴜʀꜱ</b>\n
-<i>💡 Yᴏᴜ ᴄᴀɴ, Tʜᴀɴᴋ ᴍᴇ ʟᴀᴛᴇʀ : @HombaleCinemas </i>"""
+<i>🤟 Yᴏᴜ ᴄᴀɴ, Tʜᴀɴᴋ ᴍᴇ ʟᴀᴛᴇʀ : @HombaleCinemas </i>"""
 
         await log_msg.reply_text(text=f"**RᴇQᴜᴇꜱᴛᴇᴅ ʙʏ :** [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n**Uꜱᴇʀ ɪᴅ :** `{m.from_user.id}`\n**Dᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :** {stream_link}", disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN, quote=True)
         await m.reply_text(
@@ -111,8 +111,8 @@ async def channel_receive_handler(bot, broadcast):
                                     Var.PORT,
                                     log_msg.id)
         await log_msg.reply_text(
-            text=f"**Cʜᴀɴɴᴇʟ Nᴀᴍᴇ:** `{broadcast.chat.title}`\n**Cʜᴀɴɴᴇʟ ID:** `{broadcast.chat.id}`\n**Rᴇǫᴜᴇsᴛ ᴜʀʟ:** https://t.me/{(await bot.get_me()).username}?start=AvishkarPatil_{str(log_msg.id)}",
-            # text=f"**Cʜᴀɴɴᴇʟ Nᴀᴍᴇ:** `{broadcast.chat.title}`\n**Cʜᴀɴɴᴇʟ ID:** `{broadcast.chat.id}`\n**Rᴇǫᴜᴇsᴛ ᴜʀʟ:** https://t.me/FxStreamBot?start=AvishkarPatil_{str(log_msg.id)}",
+            text=f"**Cʜᴀɴɴᴇʟ Nᴀᴍᴇ:** `{broadcast.chat.title}`\n**Cʜᴀɴɴᴇʟ ID:** `{broadcast.chat.id}`\n**Rᴇǫᴜᴇsᴛ ᴜʀʟ:** https://t.me/{(await bot.get_me()).username}?start=HombaleCinemas_{str(log_msg.id)}",
+            # text=f"**Cʜᴀɴɴᴇʟ Nᴀᴍᴇ:** `{broadcast.chat.title}`\n**Cʜᴀɴɴᴇʟ ID:** `{broadcast.chat.id}`\n**Rᴇǫᴜᴇsᴛ ᴜʀʟ:** https://t.me/Hombale_File_To_Link_Bot?start=HombaleCinemas_{str(log_msg.id)}",
             quote=True,
             parse_mode=ParseMode.MARKDOWN
         )
@@ -121,7 +121,7 @@ async def channel_receive_handler(bot, broadcast):
             message_id=broadcast.id,
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Dᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ 📥", url=f"https://t.me/{(await bot.get_me()).username}?start=AvishkarPatil_{str(log_msg.id)}")]])
-            # [[InlineKeyboardButton("Dᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ 📥", url=f"https://t.me/FxStreamBot?start=AvishkarPatil_{str(log_msg.id)}")]])
+            # [[InlineKeyboardButton("Dᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ 📥", url=f"https://t.me/Hombale_File_To_Link_Bot?start=HombaleCinemas_{str(log_msg.id)}")]])
         )
     except FloodWait as w:
         print(f"Sleeping for {str(w.value)}s")
