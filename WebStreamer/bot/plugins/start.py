@@ -34,21 +34,22 @@ ABOUT_TEXT = """
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Hᴇʟᴘ', callback_data='help')],
+        InlineKeyboardButton('➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ ➕️', url=f"http://t.me/Hombale_File_To_Link_Bot?startchannel=true")],
         [InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
         ]]
     )
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Mᴏᴠɪᴇ', url=f"https://t.me/HombaleCinemasChat"),
-        InlineKeyboardButton('Bᴀᴄᴋ', callback_data='home')
+        InlineKeyboardButton(' Mᴏᴠɪᴇ ', url=f"https://t.me/HombaleCinemasChat"),
+        InlineKeyboardButton(' Bᴀᴄᴋ ', callback_data='home')
         ]]
     )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Mᴏᴠɪᴇ', url=f"https://t.me/HombaleCinemasChat"),
-        InlineKeyboardButton('Bᴀᴄᴋ', callback_data='home')
+        InlineKeyboardButton(' Mᴏᴠɪᴇ ', url=f"https://t.me/HombaleCinemasChat"),
+        InlineKeyboardButton(' Hᴇʟᴘ ', callback_data='help'),
+        InlineKeyboardButton(' Bᴀᴄᴋ ', callback_data='home')
         ]]
     )
 
