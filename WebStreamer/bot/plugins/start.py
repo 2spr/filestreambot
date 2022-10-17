@@ -40,15 +40,15 @@ START_BUTTONS = InlineKeyboardMarkup(
     )
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close'),
+        InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('Bᴀᴄᴋ', callback_data='home')
         ]]
     )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Hᴏᴍᴇ', callback_data='home'),
         InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
-        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
+        InlineKeyboardButton('Mᴏᴠɪᴇ', url=f"https://t.me/HombaleCinemasChat"),
+        InlineKeyboardButton('Bᴀᴄᴋ', callback_data='home')
         ]]
     )
 
