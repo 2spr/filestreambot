@@ -159,7 +159,7 @@ async def start(b, m):
                     reply_markup=InlineKeyboardMarkup(
                         [[
                           InlineKeyboardButton("🔒 Jᴏɪɴ ɴᴏᴡ Tᴏ ᴜɴʟᴏᴄᴋ 🔑", url=f"https://t.me/{Var.UPDATES_CHANNEL}")],
-                         [InlineKeyboardButton("🔄 Rᴇғʀᴇsʜ / Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{(await b.get_me()).username}?start=AvishkarPatil_{usr_cmd}")
+                         [InlineKeyboardButton("🔄 Rᴇғʀᴇsʜ / Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{(await b.get_me()).username}?start=r2spr_{usr_cmd}")
                         
                         ]]
                     ),
