@@ -46,7 +46,7 @@
 
 Press the below button to Fast deploy on Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AllOkOfficial/watchbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/2spr/filestreambot)
 
 then goto the <a href="#mandatory-vars">variables tab</a> for more info on setting up environmental variables. </details>
 
@@ -56,7 +56,7 @@ then goto the <a href="#mandatory-vars">variables tab</a> for more info on setti
 
 
 ```py
-git clone https://github.com/avipatilpro/FileStreamBot
+git clone https://github.com/2spr/filestreambot
 cd FileStreamBot
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
