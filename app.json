@@ -13,9 +13,9 @@
       "media",
       "hombalecinemas"
     ],
-  "repository": "https://github.com/r2spr/watchbot/",
+  "repository": "https://github.com/2spr/filestreambot",
   "success_url": "/",
-  "logo": "https://i.ibb.co/ZJzJ9Hq/link-3x.png",
+  "logo": "https://avatars.githubusercontent.com/u/109653478",
   "website": "avipatilweb.ml",
   "env": {
       "ENV": {
