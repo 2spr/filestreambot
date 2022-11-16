@@ -20,7 +20,7 @@
 
 <p align="center">
     <a href="https://github.com/Avipatilpro/FileStreamBot">
-        <img src="https://i.ibb.co/ZJzJ9Hq/link-3x.png" height="100" width="100" alt="FileStreamBot Logo">
+        <img src="https://avatars.githubusercontent.com/u/109653478" height="100" width="100" alt="FileStreamBot Logo">
     </a>
 </p>
 <p align='center'>
